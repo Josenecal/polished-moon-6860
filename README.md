@@ -37,7 +37,7 @@ When you have completed this challenge, submit by creating a Pull Request back t
 
 ### Challenge Description
 
-You are now in charge of a global conglomerate. You will be working with Projects, Items and Manufacturers. Projects consist of items, and Items are potentially associated with a number of Manufacturers and vice versa. 
+You are now in charge of a global conglomerate. You will be working with Projects, Items and Manufacturers. Projects consist of items, and Items are potentially associated with a number of Manufacturers and vice versa.
 
 Projects have a name and a manager. Items have a name and a cost. Manufacturers have a name and a location.
 
@@ -98,5 +98,4 @@ And I see that the number of manufacturers has increased by 1
 And when I visit the manufacturers index page
 I see that item listed under that manufacturer's name
 ```
-
-
+ 
