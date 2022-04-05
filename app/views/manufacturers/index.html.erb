@@ -1,0 +1,12 @@
+<h2>Manufacturers</h2>
+
+<% @manufacturers.each_pair do |manufacturer, items_array| %>
+  <div id="manufacturer_section_<%= manufacturer.id %>">
+    <h3><%= manufacturer.name %></h3>
+    <ul>
+      <% items_array.each do |item| %>
+        <li><%= item.name %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
