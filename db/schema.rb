@@ -35,7 +35,7 @@ ActiveRecord::Schema.define(version: 2022_04_05_204843) do
 
   create_table "manufacturers", force: :cascade do |t|
     t.string "name"
-    t.string "manufacturer_items"
+    t.string "location"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
