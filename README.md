@@ -98,4 +98,3 @@ And I see that the number of manufacturers has increased by 1
 And when I visit the manufacturers index page
 I see that item listed under that manufacturer's name
 ```
- 
